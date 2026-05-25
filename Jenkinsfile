@@ -1,6 +1,6 @@
 pipeline {
 environment { // Declaration of environment variables
-OCKER_USERNAME = "amadouyatt33@gmail.com"
+DOCKER_USERNAME = "amadouyatt33@gmail.com"
 DOCKER_ID = "medyatt" // replace this with your docker-id
 DOCKER_IMAGE = "lioraapi"
 DOCKER_TAG = "v.1.0" // we will tag our images with the current build in order to increment the value by 1 with each new build
